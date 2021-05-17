@@ -19,10 +19,10 @@
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
         <maven.compiler.encoding>UTF-8</maven.compiler.encoding>
-        <spring.version>5.2.6.RELEASE</spring.version>
-        <jackson.version>2.12.1</jackson.version>
-        <curator.version>2.13.0</curator.version>
-        <guava.version>30.1-jre</guava.version>
+        <spring.version>5.2.1.RELEASE</spring.version>
+        <jackson.version>2.9.9</jackson.version>
+        <curator.version>5.1.0</curator.version>
+        <guava.version>30.0-jre</guava.version>
     </properties>
 
     <dependencies>
@@ -30,7 +30,7 @@
         <dependency>
             <groupId>junit</groupId>
             <artifactId>junit</artifactId>
-            <version>4.13.1</version>
+            <version>4.13</version>
             <scope>test</scope>
         </dependency>
 
@@ -58,7 +58,7 @@
         <dependency>
             <groupId>io.netty</groupId>
             <artifactId>netty-all</artifactId>
-            <version>4.1.42.Final</version>
+            <version>4.1.59.Final</version>
         </dependency>
 
         <dependency>
@@ -69,21 +69,21 @@
 
         <!-- Protostuff -->
         <dependency>
-            <groupId>com.dyuproject.protostuff</groupId>
+            <groupId>io.protostuff</groupId>
             <artifactId>protostuff-core</artifactId>
-            <version>1.0.8</version>
+            <version>1.6.1</version>
         </dependency>
         <dependency>
-            <groupId>com.dyuproject.protostuff</groupId>
+            <groupId>io.protostuff</groupId>
             <artifactId>protostuff-runtime</artifactId>
-            <version>1.0.8</version>
+            <version>1.6.1</version>
         </dependency>
 
         <!-- hessian -->
         <dependency>
             <groupId>com.caucho</groupId>
             <artifactId>hessian</artifactId>
-            <version>4.0.63</version>
+            <version>4.0.7</version>
         </dependency>
 
         <!-- kryo -->
@@ -124,7 +124,7 @@
         <dependency>
             <groupId>cglib</groupId>
             <artifactId>cglib</artifactId>
-            <version>3.1</version>
+            <version>3.3.0</version>
         </dependency>
 
         <!-- jackson -->
@@ -143,7 +143,7 @@
         <dependency>
             <groupId>cn.hutool</groupId>
             <artifactId>hutool-all</artifactId>
-            <version>5.3.9</version>
+            <version>5.6.5</version>
         </dependency>
 
     </dependencies>
@@ -153,7 +153,7 @@
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-compiler-plugin</artifactId>
-                <version>3.2</version>
+                <version>3.1</version>
                 <configuration>
                     <source>1.8</source>
                     <target>1.8</target>
